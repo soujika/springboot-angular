@@ -1,8 +1,8 @@
 package entity;
 
 public class Person {
-	String firstName;
-	String lastName;
+	private String firstName;
+	private String lastName;
 	
 	public Person(String fName, String lName) {
 		this.firstName = fName;
