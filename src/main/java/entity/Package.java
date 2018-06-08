@@ -4,10 +4,10 @@ import java.util.Date;
 
 public class Package {
 
-	int id;
-	String name;
-	Person createdPerson;
-	Date date;
+	private int id;
+	private String name;
+	private Person createdPerson;
+	private Date date;
 	
 	public Package(int id, String name, Person createdPerson, Date date) {
 		this.id = id;
